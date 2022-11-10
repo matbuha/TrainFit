@@ -1,9 +1,20 @@
-# here is the list of all the abs workout functions
+# here is the main page of the App.
+import time
 
-def ab_wheel_rollout():
-    ab_wheel = False
-    workout = False
+"""here we configure what area of the body
+the user want to do"""
+print("what area you want to train today?\n")
+time.sleep(1.5)
 
-    x = input("Starting exercise? (yes/no)\n")
-    y = input("how many reps to do?\n")
-    z = input("how many sets to do?\n")
+areas = {1: "Chest",
+         2: "Back",
+         3: "Legs",
+         4: "Shoulders",
+         5: "Hands",
+         6: "Abs"
+         }
+
+print("{:<2}-{:<2}".format('index ', ' Workout-Name'))
+for k, v in areas.items():
+    label = v
+    print("{:<2}-{:<2}".format(k, label))
