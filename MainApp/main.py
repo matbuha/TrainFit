@@ -18,3 +18,5 @@ print("{:<2}-{:<2}".format('index ', ' Workout-Name'))
 for k, v in areas.items():
     label = v
     print("{:<2}-{:<2}".format(k, label))
+
+print("test")
