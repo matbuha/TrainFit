@@ -20,3 +20,4 @@ for k, v in areas.items():
     print("{:<2}-{:<2}".format(k, label))
 
 print("test")
+print("test 2")
